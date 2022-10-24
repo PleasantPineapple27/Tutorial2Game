@@ -20,7 +20,7 @@ public class PlayerScript : MonoBehaviour
     }
     void SetWinText()
     {
-        if (scoreValue >= 4)
+        if(scoreValue >= 4)
         {
             winTextObject.SetActive(true);
         }

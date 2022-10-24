@@ -17,6 +17,7 @@ public class PlayerScript : MonoBehaviour
         score.text = scoreValue.ToString();
     }
 
+
     // Update is called once per frame
     void FixedUpdate()
     {

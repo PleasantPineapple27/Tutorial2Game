@@ -44,6 +44,15 @@ public class PlayerScript : MonoBehaviour
         SetTeleport ();
         SetWinText ();
     }
+
+    void Update() 
+    {
+        if(Input.GetKey(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+
+    }
      private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.collider.tag == "Coin")

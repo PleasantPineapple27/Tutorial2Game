@@ -3,7 +3,13 @@ guid: df37012d95f6f5149bbc1890d9afb0a4
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - score: {instanceID: 0}
+  - winTextObject: {instanceID: 0}
+  - lives: {instanceID: 0}
+  - musicClipOne: {instanceID: 0}
+  - musicClipTwo: {instanceID: 0}
+  - musicSource: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

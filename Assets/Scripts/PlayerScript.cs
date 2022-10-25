@@ -10,6 +10,7 @@ public class PlayerScript : MonoBehaviour
     public Text score;
     private int scoreValue = 0;
     public GameObject winTextObject;
+    private int 
 
     // Start is called before the first frame update
     void Start()
@@ -42,6 +43,7 @@ public class PlayerScript : MonoBehaviour
             score.text = scoreValue.ToString();
             Destroy(collision.collider.gameObject);
         }
+
     }
 
     private void OnCollisionStay2D(Collision2D collision)
